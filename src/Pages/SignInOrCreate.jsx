@@ -12,7 +12,7 @@ import { Navigate, useNavigate } from 'react-router-dom'
 
 export default function SignInOrCreate() {
     const [email,setEmail] = useState('');
-    const {loginData,dispatch} = useContext(authContext)
+    const {loginData,dispatch,setCurrentEmail,currentEmail} = useContext(authContext)
     const navigate = useNavigate()
     // console.log(loginData,dispatch)
     const handleChange =(e)=>{
@@ -26,6 +26,7 @@ export default function SignInOrCreate() {
             let obj = [...loginData.userEmail,email]
             dispatch(userEmail(obj))
             // return <Navigate to="/register/password" />
+            setCurrentEmail(email)
             navigate('/register/password')
         }else{
             console.log('hi')
@@ -38,7 +39,7 @@ export default function SignInOrCreate() {
     return (
         <VStack m="auto" width="360px">
             <Header data="Sign in or create an account" />
-            <InputF value={email} handleChange={handleChange} type="email" lable="Email address" />
+            <InputF name="fEmail" value={email} handleChange={handleChange} type="email" lable="Email address" />
             <ButtonF handleClick={handleClick} btn="Continue with email" />
             <OnCrossText data="or use one of these options" />
             <ImageCardList />
