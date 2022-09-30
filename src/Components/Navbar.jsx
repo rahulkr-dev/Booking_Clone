@@ -5,6 +5,7 @@ import { authContext } from '../Context/AuthContext/AuthContextProvider'
 
 export default function Navbar() {
   const {loginData} = useContext(authContext)
+  
   console.log(loginData)
   return (
     <Box className='navbar' display="flex" justifyContent='space-around' alignItems='center' h="68px" bg="#003B95">
