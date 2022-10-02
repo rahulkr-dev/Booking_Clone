@@ -9,7 +9,7 @@ export default function Navbar() {
 
   console.log(loginData)
   return (
-    <Box className='navbar' display="flex" justifyContent='space-around' alignItems='center' h="68px" bg="#003B95">
+    <Box className='navbar' display="flex" justifyContent='space-around' alignItems='center' h="68px" bg="#003580">
       <Box className='logo'><Link to="/">Booking.com</Link></Box>
       <Box display='flex' justifyContent='space-evenly' alignItems='center'>
         <Box>

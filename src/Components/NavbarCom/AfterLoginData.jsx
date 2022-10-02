@@ -8,7 +8,7 @@ export default function AfterLoginData() {
         <Flex alignItems='center' gap="2rem" >
             <Box pos="relative" ml="1.5rem">
                 <BellIcon w={9} h={9} color="black" />
-                <Center fontWeight='bold' pos='absolute' top='4px' left="18px" color='white' fontSize="10px" bg='red' boxSize='1.1rem' borderRadius='full'>5</Center>
+                <Center fontWeight='bold' pos='absolute' top='4px' left="18px" color='white' fontSize="10px" bg='red' boxSize='1.1rem' borderRadius='full'>2</Center>
             </Box>
             <Box border='2px solid white' p="5px 7px" borderRadius={2} >
                 <Link><Text color='white' >List your property</Text></Link>

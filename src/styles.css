@@ -6,3 +6,23 @@ a{
     color: white;
     font-size: 24px;
 }
+.home-top-tag{
+    color: white;
+    margin-left: 8rem;
+    padding-left: 1.5rem;
+    /* justify-content: center; */
+}
+.home-top-tag>div{
+    color: white;
+    /* border: 1px solid black; */
+    padding: 10px 35px;
+    font-size: 14px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    /* margin: 0 3px; */
+}
+.home-top-tag>div:hover{
+    background: #215196;
+    /* border: 1px solid white; */
+}
