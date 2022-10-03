@@ -26,3 +26,13 @@ a{
     background: #215196;
     /* border: 1px solid white; */
 }
+.footerLastSection p{
+    color: #0071c2;
+    cursor: pointer;
+    text-align: start;
+    font-weight: 400;
+    padding: 3px;
+}
+.footerLastSection p:hover{
+    color: #ff8000;
+}
