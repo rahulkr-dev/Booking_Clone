@@ -23,7 +23,7 @@ export default function HomeSectionCard2() {
                 modules={[FreeMode, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide><Image src={section1_url2[0]} /><Text fontWeight="bold" fontSize="17px" textAlign='left' mt="10px">Hotel</Text><Text textAlign='left' fontSize="14px" mb="1rem" >901,735 hotel</Text></SwiperSlide>
+                <SwiperSlide><Image src={section1_url2[0]} /><Text fontWeight="bold" fontSize="17px" textAlign='left' mt="10px">Hotel</Text><Text pb="2.3rem" textAlign='left' fontSize="14px" mb="1rem" >901,735 hotel</Text></SwiperSlide>
                 <SwiperSlide><Image src={section1_url2[1]} /><Text fontWeight="bold" fontSize="17px" textAlign='left' mt="10px">Apartments</Text><Text textAlign='left' fontSize="14px" mb="1rem" >901,735 hotel</Text></SwiperSlide>
                 <SwiperSlide><Image src={section1_url2[2]} /><Text fontWeight="bold" fontSize="17px" textAlign='left' mt="10px">Resorts</Text><Text textAlign='left' fontSize="14px" mb="1rem" >901,735 hotel</Text></SwiperSlide>
                 <SwiperSlide><Image src={section1_url2[3]} /><Text fontWeight="bold" fontSize="17px" textAlign='left' mt="10px">Villas</Text><Text textAlign='left' fontSize="14px" mb="1rem" >901,735 hotel</Text></SwiperSlide>

@@ -4,7 +4,7 @@ const { createContext, useReducer, useState } = require("react");
 
 export const authContext = createContext();
 const init = {
-    isAuth:true,
+    isAuth:false,
     isRes:false,
     userEmail:[],
     userData:[]
