@@ -2,6 +2,8 @@ import React from 'react'
 import { Box, Button, Checkbox, Flex, Grid, GridItem, Heading, Input, Text, Image } from "@chakra-ui/react"
 import TextInsideImage from '../Components/TextInsideImage'
 import Footer from '../Components/Footer'
+import HomeSectionCard1 from '../Components/HomeSectionCard1';
+import HomeSectionCard2 from '../Components/HomeSection2';
 
 export const Home = () => {
   return (
@@ -66,6 +68,8 @@ export const Home = () => {
         </Box>
       </Box>
       <Box mt="30rem"></Box>
+      <HomeSectionCard1 />
+     <HomeSectionCard2 />
       <Footer />
     </div>
   )
